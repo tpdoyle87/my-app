@@ -26,7 +26,6 @@ class Description extends React.Component<IProps, IState> {
     }
 
     public setCountBy = (e: React.ChangeEvent<HTMLInputElement>) => {
-        console.log(e.currentTarget.value)
         this.setState({
             countBy: parseInt(e.currentTarget.value)
         })
